@@ -4,3 +4,5 @@ The vision of SecureFreel is to revolutionize freelance work by providing a secu
 [Slides](https://gamma.app/docs/SecureFreel-The-Future-of-Decentralized-Freelance-Platforms-a9du1org6g9dtvk)
 
 [Whatsapp](https://wa.me/254700895391)
+
+I intend to 
