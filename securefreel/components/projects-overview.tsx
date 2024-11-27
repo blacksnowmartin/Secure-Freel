@@ -7,6 +7,12 @@ export function ProjectsOverview() {
     { id: 2, title: "DeFi Dashboard Improvement", status: "ongoing" },
     { id: 3, title: "NFT Gallery Website Development", status: "completed" },
     { id: 4, title: "Crypto Wallet Assistance", status: "ongoing"},
+    { id: 5, title: "P2P Trader needed for 1 Week Project", status: "open"},
+    { id: 6, title: "Blockchain-based Supply Chain Management", status: "open" },
+    { id: 7, title: "Smart Contract Development for Gaming", status: "ongoing" },
+    { id: 8, title: "Decentralized Finance (DeFi) Lending Platform", status: "completed" },
+    { id: 9, title: "Cryptocurrency Trading Bot Development", status: "ongoing" },
+    { id: 10, title: "Non-Fungible Token (NFT) Marketplace Development", status: "open" },
   ]
 
   return (
