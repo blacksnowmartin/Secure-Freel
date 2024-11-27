@@ -3,9 +3,9 @@ import { Badge } from "@/components/ui/badge"
 
 export function ProjectsOverview() {
   const projects = [
-    { id: 1, title: "Web3 Marketplace", status: "open" },
-    { id: 2, title: "DeFi Dashboard", status: "ongoing" },
-    { id: 3, title: "NFT Collection", status: "completed" },
+    { id: 1, title: "Web3 Marketplace System Development", status: "open" },
+    { id: 2, title: "DeFi Dashboard Improvement", status: "ongoing" },
+    { id: 3, title: "NFT Gallery Website Development", status: "completed" },
   ]
 
   return (

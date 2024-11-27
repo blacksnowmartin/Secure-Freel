@@ -17,7 +17,7 @@ export function DashboardHeader() {
           <Button variant="ghost" size="icon">
             <Bell className="w-5 h-5" />
           </Button>
-          <Button variant="ghost" size="sm">John Doe</Button>
+          <Button variant="ghost" size="sm">Martin Kitonga</Button>
         </div>
       </div>
     </header>
