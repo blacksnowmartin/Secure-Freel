@@ -13,6 +13,16 @@ export function ProjectsOverview() {
     { id: 8, title: "Decentralized Finance (DeFi) Lending Platform", status: "completed" },
     { id: 9, title: "Cryptocurrency Trading Bot Development", status: "ongoing" },
     { id: 10, title: "Non-Fungible Token (NFT) Marketplace Development", status: "open" },
+    { id: 11, title: "Cross-chain Bridge Implementation", status: "open" },
+    { id: 12, title: "DAO Governance Platform Development", status: "ongoing" },
+    { id: 13, title: "Zero-Knowledge Proof Integration", status: "completed" },
+    { id: 14, title: "Metaverse Asset Management System", status: "open" },
+    { id: 15, title: "Layer 2 Scaling Solution Development", status: "ongoing" },
+    { id: 16, title: "Decentralized Identity System", status: "completed" },
+    { id: 17, title: "Tokenization Platform for Real Estate", status: "open" },
+    { id: 18, title: "Web3 Social Media Platform", status: "ongoing" },
+    { id: 19, title: "Blockchain Analytics Dashboard", status: "completed" },
+    { id: 20, title: "DeFi Yield Aggregator Development", status: "open" }
   ]
 
   return (
