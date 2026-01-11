@@ -1,5 +1,6 @@
 import { Bell, Lock, Shield, User } from 'lucide-react'
 import { Button } from "@/components/ui/button"
+import { ConnectWallet } from "@/components/connect-wallet"
 
 export function DashboardHeader() {
   return (
@@ -17,6 +18,7 @@ export function DashboardHeader() {
           <Button variant="ghost" size="icon">
             <Bell className="w-5 h-5" />
           </Button>
+          <ConnectWallet />
           <Button variant="ghost" size="sm">Martin Kitonga</Button>
         </div>
       </div>
