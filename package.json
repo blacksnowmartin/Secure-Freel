@@ -1,0 +1,23 @@
+{
+  "name": "secure-freel",
+  "version": "1.0.0",
+  "description": "SecureFreel - Web3 Freelance Escrow Platform",
+  "main": "hardhat.config.ts",
+  "scripts": {
+    "hardhat:compile": "hardhat compile",
+    "hardhat:deploy": "hardhat run scripts/deploy.ts --network localhost",
+    "hardhat:test": "hardhat test",
+    "hardhat:node": "hardhat node"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@openzeppelin/contracts": "^5.4.0",
+    "@typechain/hardhat": "^9.1.0",
+    "@types/node": "^20",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.15",
+    "ts-node": "^10.9.2",
+    "typechain": "^8.3.2",
+    "typescript": "^5"
+  }
+}
