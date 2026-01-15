@@ -76,8 +76,8 @@ export function ProjectsOverview() {
 
   return (
     <Card className="col-span-2">
-      <CardHeader className="flex flex-row items-center justify-between">
-        <CardTitle>Projects Overview</CardTitle>
+      <CardHeader className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 sm:gap-4">
+        <CardTitle className="text-lg sm:text-xl">Projects Overview</CardTitle>
         <Dialog>
           <DialogTrigger asChild>
             <Button>Create Project</Button>
@@ -102,18 +102,18 @@ export function ProjectsOverview() {
       </CardHeader>
       
       <CardContent>
-        <div className="space-y-8">
+        <div className="space-y-6 sm:space-y-8">
           {["Open Projects", "Ongoing Projects", "Completed Projects"].map((section) => (
             <div key={section}>
-              <h3 className="font-semibold mb-2">{section}</h3>
+              <h3 className="font-semibold mb-2 text-sm sm:text-base">{section}</h3>
               <div className="space-y-2">
                 {projects
                   .filter((project) => project.status === section.split(" ")[0].toLowerCase())
                   .map((project) => (
-                    <div key={project.id} className="flex items-center justify-between bg-muted p-2 rounded-md">
-                      <span>{project.title}</span>
-                      <div className="flex items-center gap-2">
-                        <Badge variant={project.status === "open" ? "default" : project.status === "ongoing" ? "secondary" : "outline"}>
+                    <div key={project.id} className="flex flex-col sm:flex-row items-start sm:items-center justify-between bg-muted p-2 sm:p-3 rounded-md gap-2 sm:gap-0">
+                      <span className="text-xs sm:text-sm line-clamp-2">{project.title}</span>
+                      <div className="flex items-center gap-2 w-full sm:w-auto">
+                        <Badge variant={project.status === "open" ? "default" : project.status === "ongoing" ? "secondary" : "outline"} className="text-xs">
                           {project.status}
                         </Badge>
                         {project.status === "open" && (
@@ -121,6 +121,7 @@ export function ProjectsOverview() {
                             size="sm"
                             onClick={() => handleApply(project.id)}
                             disabled={project.applicants?.includes("current-user")}
+                            className="text-xs sm:text-sm h-7 sm:h-8 px-2 sm:px-3"
                           >
                             {project.applicants?.includes("current-user") ? "Applied" : "Apply"}
                           </Button>

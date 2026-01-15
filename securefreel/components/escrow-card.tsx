@@ -5,13 +5,13 @@ export function EscrowCard() {
   return (
     <Card>
       <CardHeader>
-        <CardTitle>Escrow</CardTitle>
+        <CardTitle className="text-lg sm:text-xl">Escrow</CardTitle>
       </CardHeader>
       <CardContent>
-        <div className="text-sm text-muted-foreground mb-4">
+        <div className="text-xs sm:text-sm text-muted-foreground mb-4">
           Securely fund projects using smart contracts
         </div>
-        <Button className="w-full">Fund Project</Button>
+        <Button className="w-full text-xs sm:text-sm">Fund Project</Button>
       </CardContent>
     </Card>
   )
